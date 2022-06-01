@@ -9,7 +9,7 @@ And in the bottom of the site you will find a section called "My book Challenge"
 
 ## How to use it 
 
-You can use the bookfinder by visiting this link -----> https://leggolibri.netlify.app
+You can use the bookfinder by visiting this link -----> https://leggolibrifinder.netlify.app
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. <br>

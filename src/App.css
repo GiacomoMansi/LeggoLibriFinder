@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  height: -400px;
+}
+
+/*--------------------------------Stile Part centrale*/
+.main_part {
+  height: 100%;
+  width: 100%;
+  background-color: #ffba08;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  z-index: 3;
+}
+.logo {
+  margin-bottom: 20px;
+  margin-top: 110px;
+  z-index: 3;
+}
+.eee {
+  position: static;
+}
+.controller {
+  width: 700px;
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  bottom: 400px;
+  left: 300px;
+
+}
+.input_search {
+  width: 470px;
+  height: 40px;
+  border: 2px solid #d00000;
+  border-radius: 10px;
+  background-color: #ffba08;
+  color: white;
+  z-index: 5;
+  bottom:190px;
+  margin-right: 10px;
+}
+
+.input_search:hover {
+  border: 2px solid #ffba08;
+  background-color: #d00000;
+  z-index: 3;
+
+}
+.button_search {
+  position: relative;
+  width: 150px;
+  height: 30px;
+  top: 5px;
+  left: 10px;
+  font-size: 20px;
+  background-color: #ffba08;
+  border: 2px solid #d00000;
+  border-radius: 10px;
+  z-index: 3;
+  font-weight: bold;
+  color: #d00000;
+
+}
+.button_search:hover {
+  background-color: #d00000;
+  border: 2px solid #ffba08;
+  z-index: 3;
+  color: #ffba08;
+
+} 
+
+/*--------------------------------Stile grafiche*/
+.super_hero {
+display: list-item;
+position: absolute;
+right: 0px;
+bottom: 0px;
+z-index: 5;
+height: 400px;
+width: 400px;
+background-repeat: no-repeat;
+}
+.curve {
+position: absolute;
+bottom: 399px;
+width: 100%;
+z-index: 1;
+fill: #d00000;
+
+}
+.lego_build { 
+  position: absolute;
+  bottom: 350px;
+  left: -50px;
+  z-index: 3;
+  width: 400px;
+  height: 400px;
+  left: 20px;
+}
+/*--------------------------------Stile schede libri*/
+
+.second_part {
+height: auto;
+min-height: 300px;
+background-color: #d00000;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+z-index: 2;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.result {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+ul li {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 100px;
+  border: 5px solid #ffba08;
+}
+.result h1 {
+  margin-top: 10px;
+}
+.result p { 
+  margin-top: 10px;
+}
+.result img {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.footer {
+  background-color: #ffba08;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  margin: 0px;
+  
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #d00000;
+    width: 100%;
+  }
+  .controller {
+    display: flex;
+    position: sticky;
+    max-width: fit-content;
+    position: absolute;
+    top: 10px;
+    left: -30px;
+  }
+  .main_part {
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+  }
+  .input_search{
+    margin-left: 60px;
+    width: 180px;
+    margin-right: 8px;
+  }
+  .button_search {
+    position: relative;
+    left: 5px;
+    bottom: 30px;
+    width: 150px;
+  }
+  .curve {
+    display: none;
+
+  }
+  ul li {
+    width: 200px;
+  }
+  .lego_build {
+    display: none;
+  }
+  .super_hero {
+    display: none;
+  }
+  
+.second_part {
+  height: auto;
+  min-height: 1400px;
+  background-color: #d00000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -10px;
+  max-width: 340px;
+  }
+  .result {
+    width: 500px;
+    position: relative;
+    left: 20px;
+    max-width: 390px;
+  }
+  .footer {
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 600px) {
+/* For tablets: */
+
+.body {
+  height: 100%;
+}
+
+footer {
+      margin-top: 50px;
+}
+}
